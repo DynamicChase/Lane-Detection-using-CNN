@@ -1,0 +1,4 @@
+Top Left Point:     [169, 131]
+Top Right Point:    [417, 135]
+Bottom Left Point:  [2, 351]
+Bottom Right Point: [633, 346]
