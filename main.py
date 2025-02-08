@@ -36,18 +36,18 @@ class TopViewLaneDetection:
         """ Compute perspective transformation matrix for top view """
         # Source points (front view coordinates)
         src_points = np.float32([
-            [57, 399],   # Bottom Left Point
-            [410, 395],  # Bottom Right Point
-            [378, 189],  # Top Right Point
-            [57, 182]    # Top Left Point
+            [166, 276],  # Top Left
+            [265, 271],  # Top Right
+            [414, 309],  # Bottom Right
+            [96, 336]    # Bottom Left
         ])
 
         # Destination points (top view coordinates)
         dst_points = np.float32([
-            [50, 416],   # Bottom Left
-            [366, 416],  # Bottom Right
-            [366, 0],    # Top Right
-            [50, 0]      # Top Left
+            [0, 0],      # Top Left
+            [416, 0],    # Top Right
+            [416, 416],  # Bottom Right
+            [0, 416]     # Bottom Left
         ])
 
         # Compute perspective transform
@@ -176,7 +176,7 @@ class TopViewLaneDetection:
                 lane_coordinates['right_lane'].append(right_lane_pixels)
         
         # Print lane coordinates
-        self.print_lane_coordinates(lane_coordinates)
+        # self.print_lane_coordinates(lane_coordinates)
         
         return lane_coordinates
 

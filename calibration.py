@@ -175,7 +175,7 @@ class PreciseTopViewCalibration:
 
 def main():
     calibration = PreciseTopViewCalibration()
-    calibration.calibrate_top_view('images/test.jpg')
+    calibration.calibrate_top_view('images/frame.jpg')
 
 if __name__ == "__main__":
     main()
