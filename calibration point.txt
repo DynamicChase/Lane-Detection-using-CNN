@@ -1,4 +1,4 @@
-Top Left Point:     [169, 131]
-Top Right Point:    [417, 135]
-Bottom Left Point:  [2, 351]
-Bottom Right Point: [633, 346]
+Point 1 Selected: [73, 284]
+Point 2 Selected: [335, 275]
+Point 3 Selected: [405, 302]
+Point 4 Selected: [11, 319]
